@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <title>Timer App</title>
+</head>
+<body>
+    <div id="time">
+        <div class="main">
+            <h1 id="hours"></h1>
+            <h1>&ensp;:&ensp;</h1>
+            <h1 id="mins"></h1>
+            <h1>&ensp;:&ensp;</h1>
+            <h1 id="seconds"></h1>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="inps">
+        <input type="text" name="" id="userInputHrs" size="5" maxlength="2" placeholder="Enter Hours">
+    </div>
+    <br>
+    <div class="inps">
+        <button onclick="getHrs()" id="submitHrs">Submit Hours</button>
+    </div>
+    <br>
+    <div class="inps">
+        <input type="text" name="" id="userInputMins" size="5" maxlength="2" placeholder="Enter Minutes">
+    </div>
+    <br>
+    <div class="inps">
+        <button onclick="getMins()" id="submitMins">Submit Minutes</button>
+    </div>
+    <br><br>
+    <div id="start1">
+        <button onclick="startTimer()" id="start">Start Timer</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
